@@ -1,0 +1,148 @@
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1100px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    position: relative;
+   
+}
+/* login page */
+
+.card {
+    width: 40%;
+    height: 44% !important;
+    border-radius: 10px;
+    top: 20%;
+    background-color: #EFFAFC !important;
+ 
+}
+
+h2 {
+    font-size: 72px;
+    background: -webkit-linear-gradient( #a8eb12,#004d7a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.card-body {
+    padding: 10px;
+ 
+}
+.first_name {
+    width: 50%;
+}
+.form-label {
+
+    margin-top: 7px; 
+}
+.forget {
+    margin-top: 13px;
+    margin-right: 18px;
+    color: darkorange;
+    cursor: pointer;
+}
+.forget a {
+
+    text-decoration-line: none;
+}
+.m-5 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+img {
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    top: 16%;
+    left: 59%;
+}
+
+/* signup page */
+ #signup {
+    width: 40%;
+    height: 67%;
+    border-radius: 10px;
+    top: 20%;
+    background-color: #EFFAFC !important;
+    display: none;
+ }
+p {
+    margin-right: 30px;
+}
+.submit {
+    display: flex;
+    justify-content: end;
+    width: 44%;
+}
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient( #a8eb12,#004d7a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 15px;
+  }
+.singup_button {
+    position: absolute;
+    bottom: 163px;
+    font-size: 17px;
+    color: darkslateblue;
+    cursor: pointer;
+}
+.btn-md {
+    margin-left: 130px;
+
+}
+.signup_img {
+    transform: rotateY(-135deg);
+    top: 23%;
+    height: 420px;
+    width: 372px;
+    margin-left: -39px;
+}
+.password_show {
+    color: skyblue;
+    cursor: pointer;
+    position: absolute;
+    right: 40%;
+    top: 49%;
+    
+}
+
+
+/* alert */
+
+.aler {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.alert.alert-danger.alert-dismissible {
+    width: 566px;
+    text-align: center;
+    display: none;
+    z-index: 1;
+    top: 106px;
+    position: absolute;
+
+   
+}
+.alert.alert-success.alert-dismissible {
+    width: 566px;
+    text-align: center;
+    display: none;
+    z-index: 1;
+    top: 106px;
+    /* position: absolute;    */
+}
+#exampleModal {
+    display: none;
+}
+
+
